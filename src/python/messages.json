@@ -1,0 +1,29 @@
+{
+    "messages": [
+    {"text": "You are loved"},
+    {"text": "You are not alone"},
+    {"text": "You are important"},
+    {"text": "You make a difference"},
+    {"text": "You are creative"},
+    {"text": "You are talented"},
+    {"text": "You are unique"},
+    {"text": "You are special"},
+    {"text": "This moment is unique"},
+    {"text": "You are strong"},
+    {"text": "You are deserving of love"},
+    {"text": "You deserve self-compassion"},
+    {"text": "You are worthy"},
+    {"text": "You are a Python Pirate!"},
+    {"text": "You are a C# Conqueror!"},
+    {"text": "You are a Java Jedi!"},
+    {"text": "You are a Lisp Legend!"}
+],
+    "app_config":
+    {
+        "app_name": "Good Thoughts",
+        "app_version": "1.0.0",
+        "min_message_interval": 10,
+        "max_message_interval": 30
+
+    }
+}

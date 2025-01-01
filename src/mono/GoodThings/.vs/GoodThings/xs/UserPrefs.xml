@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{D9811982-DEEC-4723-A773-7E41F1D07236}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GoodThings/Messages.xml">
+    <Files>
+      <File FileName="GoodThings/Program.cs" Line="9" Column="10" />
+      <File FileName="GoodThings/MainWindow.cs" Line="8" Column="17" />
+      <File FileName="GoodThings/Messages.xml" Line="8" Column="43" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GoodThings" expanded="True">
+            <Node name="GoodThings" expanded="True">
+              <Node name="UserInterface" expanded="True" />
+              <Node name="Messages.xml" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.GoodThings FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
