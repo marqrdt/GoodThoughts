@@ -23,7 +23,7 @@
         "app_name": "Good Thoughts",
         "app_version": "1.0.0",
         "min_message_interval": 30,
-        "max_message_interval": 120
-
+        "max_message_interval": 120,
+        "message_timeout": 2
     }
 }

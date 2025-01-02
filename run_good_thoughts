@@ -1,0 +1,8 @@
+#!/bin/bash
+
+. ${HOME}/virtualenvs/good_thoughts_venv/bin/activate
+cd ${HOME}/git/GoodThoughts/src/python
+pip install -r requirements.txt > /dev/null 2>&1
+python3 main.py &
+GT_PID=$!
+trap "echo 'Killing python process...'; kill $GT_PID" SIGINT SIGTERM  SIGHUP

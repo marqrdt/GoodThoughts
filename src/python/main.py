@@ -38,7 +38,7 @@ class GoodThoughtNotifier:
             await asyncio.shield( self.notifier.send(
                 title=self.app_name,
                 message=message,
-                timeout=int(timeout_time / 2)
+                timeout=int(self.app_config["message_timeout"])
             ))
             await asyncio.sleep(timeout_time) 
             await self.notifier.clear_all()
@@ -46,13 +46,13 @@ class GoodThoughtNotifier:
         self.notifier.send(
                 title="One last thing...",
                 message=self.get_random_message(),
-                timeout=int(self.app_config["min_message_interval"] / 2)
+                timeout=int(self.app_config["message_timeout"])
             )
         print(f"Stopping application {self.app_config['app_name']}")
         sys.exit(0)
 
 if __name__ == "__main__":
-    logging.basicConfig(level=logging.DEBUG)
+    #logging.basicConfig(level=logging.DEBUG)
     message_file = "messages.json"
     gtn = GoodThoughtNotifier(message_file=message_file)
     asyncio.run(gtn.run())
